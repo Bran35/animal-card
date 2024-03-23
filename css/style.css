@@ -1,1 +1,113 @@
+#Dogimage {
+    width: 300px;
+    height: 200px;
+    
+}
 
+
+#fact {
+    font-style: italic;
+}
+
+.Label{
+    font-weight: bold;
+}
+#list{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+
+}
+
+#main-div{
+    border: 1px black solid;
+    padding: 15px;
+    width: 300px;
+    background-color: blue;
+    
+
+}
+
+#second-div{
+    border: 1px black solid;
+    border-style: ridge;
+    background-color: lightblue;
+
+}
+#info {
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+.flex-container{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4;
+    /* Always  is on the main axis*/
+    /*justify-content: start;*/
+    /* Always on the cross axis */
+    align-items: start;
+    /*flex-wrap: wrap;*/
+
+
+}
+
+
+}
+.item{
+    flex:1 0 100px;
+   /* flex-basis: 300px;*/
+    /*flex-grow: 1;*/
+    height: 100px;
+    background: #254de4;
+    color:#fff;
+    margin: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+  
+
+    .item:nth-of-type(1){
+        /*order:2;*/
+       /* flex-grow: 1;*/
+       /*flex-shrink: 1;*/
+        
+     
+
+    }
+   
+    .item:nth-of-type(2){
+        /*order:1;*/
+        /*flex-basis: 200px;*/
+        /*flex-grow: 2;*/
+        /*flex-shrink: 2;*/
+        
+     
+
+    } 
+   
+   
+   
+    .item:nth-of-type(3){
+        /*order: 3;*/
+        /*flex-grow: 1;*/
+       /* flex-shrink: 3;*/
+     
+
+    }
